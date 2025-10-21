@@ -1,0 +1,98 @@
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Menu de Navegação */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky; /* Menu fixo no topo ao rolar */
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos das Seções */
+.content-section {
+    padding: 60px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Estilos do Formulário de Contato */
+#contato label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contato input[type="text"],
+#contato input[type="email"],
+#contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+#contato button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilo para a mensagem de erro (usada pelo JS) */
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos do Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
